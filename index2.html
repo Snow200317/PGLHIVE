@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Hive PG - Live Premium</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Smooth Scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="path/to/your-logo.png" alt="L'Hive PG Logo">
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li> <!-- Updated to scroll to contact -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section (Q&A) -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Ask Us Anything</h2>
+      <p>If you have any questions, feel free to ask below!</p>
+      
+      <!-- Question Submission Form -->
+      <form class="contact-form" id="questionForm" action="#" method="post">
+        <div class="form-group">
+          <label for="question">Your Question</label>
+          <textarea id="question" name="question" rows="4" placeholder="Enter your question here..." required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn">Submit Question</button>
+        </div>
+      </form>
+
+      <h3>Recent Questions:</h3>
+      <div id="questionList">
+        <!-- Example of a displayed question -->
+        <!-- Dynamic questions will appear here -->
+        <div class="question">
+          <p><strong>Q:</strong> How much is the rent for a single sharing room?</p>
+          <div class="answers">
+            <p><strong>A:</strong> The rent is ₹21,000/month for a single sharing room without a balcony.</p>
+            <p><strong>A:</strong> The rent is ₹22,000/month for a single sharing room with a balcony.</p>
+          </div>
+          <!-- Answer Form -->
+          <form class="answer-form">
+            <div class="form-group">
+              <textarea rows="3" placeholder="Your answer..." required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Answer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <p>&copy; 2024 L'Hive PG. All Rights Reserved.</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
